@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+   background-color: lightblue;
+}
+.container{
+ height:350px;
+ width:300px;
+ border-radius: 10px;
+ position: absolute;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+ margin: auto;
+ background-color: white;
+ border:2px solid black;
+ box-shadow: 0px 0px 10px gray;
+ box-sizing: border-box;
+}
+.weather-container{
+  border-top: 2px solid black;
+}
+.title{
+  margin: 5px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.notification,.temperature,.description,.location{
+  text-align: center;
+  margin-top: 10px;
+}
+.weather-icon{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  height:150px;
+
+
+}
+.temperature{
+  font-size: 50px;
+} p{
+  display: inline-block;
+}
