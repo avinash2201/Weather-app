@@ -53,5 +53,5 @@ function displayWeather() {
   description.innerHTML = weather.description;
   loc.innerHTML = `${weather.city},${weather.country}`;
   temperature.innerHTML = `${weather.temperature}<span>°C</span>`
-  iconId.innerHTML = `<img src ="${weather.iconId}.png">`;
+  iconId.innerHTML = `<img src ="weather png images/${weather.iconId}.png">`;
 }
